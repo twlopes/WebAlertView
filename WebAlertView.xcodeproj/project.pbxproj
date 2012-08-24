@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86F0402515E737D200E0D43E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F0402415E737D200E0D43E /* UIKit.framework */; };
+		86F0402715E737D200E0D43E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F0402615E737D200E0D43E /* Foundation.framework */; };
+		86F0402915E737D200E0D43E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F0402815E737D200E0D43E /* CoreGraphics.framework */; };
+		86F0402F15E737D300E0D43E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86F0402D15E737D300E0D43E /* InfoPlist.strings */; };
+		86F0403115E737D300E0D43E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0403015E737D300E0D43E /* main.m */; };
+		86F0403515E737D300E0D43E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0403415E737D300E0D43E /* AppDelegate.m */; };
+		86F0403815E737D300E0D43E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0403715E737D300E0D43E /* ViewController.m */; };
+		86F0404715E7381500E0D43E /* TWLWebAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0404615E7381500E0D43E /* TWLWebAlertView.m */; };
+		86F0404A15E7384300E0D43E /* TWLVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0404915E7384300E0D43E /* TWLVideoViewController.m */; };
+		86F0404D15E738C000E0D43E /* TWLExternalURLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F0404C15E738C000E0D43E /* TWLExternalURLView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86F0402015E737D200E0D43E /* WebAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F0402415E737D200E0D43E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86F0402615E737D200E0D43E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86F0402815E737D200E0D43E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86F0402C15E737D300E0D43E /* WebAlertView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebAlertView-Info.plist"; sourceTree = "<group>"; };
+		86F0402E15E737D300E0D43E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86F0403015E737D300E0D43E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86F0403215E737D300E0D43E /* WebAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebAlertView-Prefix.pch"; sourceTree = "<group>"; };
+		86F0403315E737D300E0D43E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86F0403415E737D300E0D43E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86F0403615E737D300E0D43E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86F0403715E737D300E0D43E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86F0404515E7381500E0D43E /* TWLWebAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLWebAlertView.h; sourceTree = "<group>"; };
+		86F0404615E7381500E0D43E /* TWLWebAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWLWebAlertView.m; sourceTree = "<group>"; };
+		86F0404815E7384300E0D43E /* TWLVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLVideoViewController.h; sourceTree = "<group>"; };
+		86F0404915E7384300E0D43E /* TWLVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWLVideoViewController.m; sourceTree = "<group>"; };
+		86F0404B15E738C000E0D43E /* TWLExternalURLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWLExternalURLView.h; sourceTree = "<group>"; };
+		86F0404C15E738C000E0D43E /* TWLExternalURLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWLExternalURLView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86F0401D15E737D200E0D43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F0402515E737D200E0D43E /* UIKit.framework in Frameworks */,
+				86F0402715E737D200E0D43E /* Foundation.framework in Frameworks */,
+				86F0402915E737D200E0D43E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86F0401515E737D200E0D43E = {
+			isa = PBXGroup;
+			children = (
+				86F0402A15E737D200E0D43E /* WebAlertView */,
+				86F0402315E737D200E0D43E /* Frameworks */,
+				86F0402115E737D200E0D43E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86F0402115E737D200E0D43E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86F0402015E737D200E0D43E /* WebAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86F0402315E737D200E0D43E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86F0402415E737D200E0D43E /* UIKit.framework */,
+				86F0402615E737D200E0D43E /* Foundation.framework */,
+				86F0402815E737D200E0D43E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86F0402A15E737D200E0D43E /* WebAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				86F0404415E737EB00E0D43E /* WebAlertView */,
+				86F0403315E737D300E0D43E /* AppDelegate.h */,
+				86F0403415E737D300E0D43E /* AppDelegate.m */,
+				86F0403615E737D300E0D43E /* ViewController.h */,
+				86F0403715E737D300E0D43E /* ViewController.m */,
+				86F0402B15E737D300E0D43E /* Supporting Files */,
+			);
+			path = WebAlertView;
+			sourceTree = "<group>";
+		};
+		86F0402B15E737D300E0D43E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86F0402C15E737D300E0D43E /* WebAlertView-Info.plist */,
+				86F0402D15E737D300E0D43E /* InfoPlist.strings */,
+				86F0403015E737D300E0D43E /* main.m */,
+				86F0403215E737D300E0D43E /* WebAlertView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86F0404415E737EB00E0D43E /* WebAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				86F0404515E7381500E0D43E /* TWLWebAlertView.h */,
+				86F0404615E7381500E0D43E /* TWLWebAlertView.m */,
+				86F0404815E7384300E0D43E /* TWLVideoViewController.h */,
+				86F0404915E7384300E0D43E /* TWLVideoViewController.m */,
+				86F0404B15E738C000E0D43E /* TWLExternalURLView.h */,
+				86F0404C15E738C000E0D43E /* TWLExternalURLView.m */,
+			);
+			name = WebAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86F0401F15E737D200E0D43E /* WebAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F0404115E737D300E0D43E /* Build configuration list for PBXNativeTarget "WebAlertView" */;
+			buildPhases = (
+				86F0401C15E737D200E0D43E /* Sources */,
+				86F0401D15E737D200E0D43E /* Frameworks */,
+				86F0401E15E737D200E0D43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebAlertView;
+			productName = WebAlertView;
+			productReference = 86F0402015E737D200E0D43E /* WebAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86F0401715E737D200E0D43E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Tristan Lopes";
+			};
+			buildConfigurationList = 86F0401A15E737D200E0D43E /* Build configuration list for PBXProject "WebAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86F0401515E737D200E0D43E;
+			productRefGroup = 86F0402115E737D200E0D43E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86F0401F15E737D200E0D43E /* WebAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86F0401E15E737D200E0D43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F0402F15E737D300E0D43E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86F0401C15E737D200E0D43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F0403115E737D300E0D43E /* main.m in Sources */,
+				86F0403515E737D300E0D43E /* AppDelegate.m in Sources */,
+				86F0403815E737D300E0D43E /* ViewController.m in Sources */,
+				86F0404715E7381500E0D43E /* TWLWebAlertView.m in Sources */,
+				86F0404A15E7384300E0D43E /* TWLVideoViewController.m in Sources */,
+				86F0404D15E738C000E0D43E /* TWLExternalURLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86F0402D15E737D300E0D43E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F0402E15E737D300E0D43E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86F0403F15E737D300E0D43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86F0404015E737D300E0D43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86F0404215E737D300E0D43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebAlertView/WebAlertView-Prefix.pch";
+				INFOPLIST_FILE = "WebAlertView/WebAlertView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86F0404315E737D300E0D43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebAlertView/WebAlertView-Prefix.pch";
+				INFOPLIST_FILE = "WebAlertView/WebAlertView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86F0401A15E737D200E0D43E /* Build configuration list for PBXProject "WebAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F0403F15E737D300E0D43E /* Debug */,
+				86F0404015E737D300E0D43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F0404115E737D300E0D43E /* Build configuration list for PBXNativeTarget "WebAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F0404215E737D300E0D43E /* Debug */,
+				86F0404315E737D300E0D43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86F0401715E737D200E0D43E /* Project object */;
+}
